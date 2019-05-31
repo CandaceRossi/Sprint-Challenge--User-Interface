@@ -50,3 +50,26 @@
 .button {
     padding: 20px;
 }
+
+footer {
+    display: flex;
+    justify-content: center;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer nav {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    align-items: flex-start;
+}
+
+
+/* footer nav a {
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+} */
