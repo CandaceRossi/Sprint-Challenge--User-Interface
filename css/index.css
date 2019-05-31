@@ -170,6 +170,8 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding-top: 20px;
+    padding-right: 15px;
+    padding-bottom: 15px;
 }
 
 a {
@@ -177,6 +179,10 @@ a {
     color: black;
     font-size: 14px;
     padding-top: 20px;
+}
+
+.container nav a:hover {
+    color: red;
 }
 
 .long {
@@ -223,6 +229,46 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.middle-content .boxes .box:first-child {
+    background: teal;
+}
+
+.middle-content .boxes .box:nth-child(2) {
+    background: gold;
+}
+
+.middle-content .boxes .box:nth-child(3) {
+    background: cadetblue;
+}
+
+.middle-content .boxes .box:nth-child(4) {
+    background: coral;
+}
+
+.middle-content .boxes .box:nth-child(5) {
+    background: crimson;
+}
+
+.middle-content .boxes .box:nth-child(6) {
+    background: forestgreen;
+}
+
+.middle-content .boxes .box:nth-child(7) {
+    background: darkorchid;
+}
+
+.middle-content .boxes .box:nth-child(8) {
+    background: hotpink;
+}
+
+.middle-content .boxes .box:nth-child(9) {
+    background: indigo;
+}
+
+.middle-content .boxes .box:nth-child(10) {
+    background: dodgerblue;
 }
 
 .bottom-content {
