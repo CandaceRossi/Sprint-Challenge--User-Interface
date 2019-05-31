@@ -1,0 +1,75 @@
+.container about-page {
+    width: 900px;
+    margin: 20px auto;
+}
+
+.aboutit {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px dotted black;
+}
+
+.allofit {
+    width: 900px;
+    padding-left: 20px;
+    padding-right: 120px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content {
+    width: 350px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+    padding-bottom: 20px;
+    padding-top: 40px;
+    border-bottom: 1px dotted black;
+    margin: 5px;
+}
+
+.bottom {
+    display: flex;
+    justify-content: center;
+}
+
+.work {
+    width: 900px;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-right: 70px;
+    padding-left: 20px;
+}
+
+.button {
+    padding: 20px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer nav {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    align-items: flex-start;
+}
+
+
+/* footer nav a {
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+} */
