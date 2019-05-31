@@ -1,3 +1,8 @@
+.container about-page {
+    width: 900px;
+    margin: 20px auto;
+}
+
 .aboutit {
     padding-top: 20px;
     padding-bottom: 20px;
@@ -5,14 +10,24 @@
 }
 
 .content {
+    width: 350px;
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
     justify-content: space-between;
     align-content: space-between;
+    padding-bottom: 20px;
+    padding-top: 40px;
     border-bottom: 1px dotted black;
+    margin: 5px;
 }
 
 .work {
     padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 160px;
+    padding-right: 160px;
+}
+
+.button {
+    padding: 20px;
 }
