@@ -169,13 +169,18 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
+    padding-top: 20px;
 }
 
 a {
     text-decoration: none;
     color: black;
     font-size: 14px;
+    padding-top: 20px;
+}
+
+.long {
+    padding-top: 20px;
 }
 
 .top-content {
@@ -183,6 +188,7 @@ a {
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
+    padding-top: 20px;
     border-bottom: 1px dashed black;
 }
 
